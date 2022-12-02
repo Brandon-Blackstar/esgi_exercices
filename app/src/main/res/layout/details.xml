@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:text="@string/receiptTitle"
         android:gravity="center"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"/>
 
 
     <androidx.constraintlayout.widget.Guideline
@@ -53,8 +54,9 @@
 
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/barcode"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:src="@drawable/ic_barcode"
                 />
 
