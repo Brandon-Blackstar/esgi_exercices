@@ -9,4 +9,6 @@
     <string name="no_bookings">You have no bookings yet</string>
     <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</string>
 
+    <string name="receiptTitle">Parking Receipt</string>
+
 </resources>
